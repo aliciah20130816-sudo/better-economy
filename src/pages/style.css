@@ -1,0 +1,141 @@
+/* .charis-sil-regular {
+  font-family: "Charis SIL", serif;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+.roboto-serif-uniquifier {
+  font-family: "Roboto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "GRAD" 0;
+}
+
+/* In General */
+.background {
+  background-color: #f7f9fcff;
+}
+
+.primarytext {
+  color: #172033;
+  font-size: 18px;
+}
+
+.secondarytext {
+  color: #123c35;
+  font-size: 12px;
+}
+
+.cards {
+  border: 2px solid #e6eaf0;
+  border-radius: 8px;
+  background-color: white;
+  margin: 5px;
+  padding: 5px;
+} 
+
+
+/* Dashboard */
+.homecards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 100px;
+}
+
+.bottomcards {
+  display: flex;
+}
+
+/* Purshase History */
+.selections {
+  width: 225px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border: 2px solid #e6eaf0;
+}
+
+.table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line {
+  border-width: 0px 0px 2px 0px;
+  border-color: #d2d6db;
+}
+
+.tb > * > *{
+  width: 10px;
+}
+
+.buttons {
+  border: 2px solid #e2e6ec;
+  background-color: rgb(216, 218, 224);
+  border-radius: 10px;
+  animation: buttons;
+}
+
+.buttons:hover {
+  border: 0px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popUp {
+  background: white;
+  width: 400px;
+  border-radius: 8px;
+  padding: 24px;
+}
+
+.pop {
+  font-size: 20px;
+}
+
+/* Insights Page */
+.cardposition {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  height: 1000px;
+}
+
+.left {
+  display: grid;
+  grid-template-rows: 1fr 3fr 2fr;
+}
+
+.top {
+  display: grid;
+  grid-template-columns: 4fr 4fr 4fr;
+}
+
+.middle {
+  display: grid;
+  grid-template-columns: 7fr 5fr;
+}
+
+.bottom {
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: 2fr 5fr 1fr;
+}
